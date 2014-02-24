@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Meneco by bioasp</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Meneco</h1>
+        <p>metabolic network completion</p>
+
+        <p class="view"><a href="https://github.com/bioasp/meneco">View the Project on GitHub <small>bioasp/meneco</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bioasp/meneco/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bioasp/meneco/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bioasp/meneco">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="metabolic-network-completion" class="anchor" href="#metabolic-network-completion"><span class="octicon octicon-link"></span></a>Metabolic Network Completion</h1>
+
+<p>A qualitative approach to elaborating the bio-synthetic capacities of metabolic networks. Large-scale metabolic networks as well as measured data sets suffer from substantial incompleteness. This approach builds upon a formal method for analyzing large-scale metabolic networks mapping its principles into Answer Set Programming. The approach can then be used to check whether a drafted network provides the synthesis routes to comply with the required functionality. If this fails, the draft network can be completed by importing reactions from metabolic reference network stemming from other organisms until the obtained network provides the measured functionality. </p>
+
+<p><strong>Related publications:</strong></p>
+
+<p>Extending the Metabolic Network of Ectocarpus Siliculosus using Answer Set Programming. (2013). 12th International Conference on Logic Programming and Nonmonotonic Reasoning. <a href="http://dx.doi.org/10.1007/978-3-642-40564-8_25">DOI</a></p>
+
+<p>Metabolic Network Expansion with Answer Set Programming. (2009). 25th International Conference on Logic Programming. <a href="http://dx.doi.org/10.1007/978-3-642-02846-5_27">DOI</a></p>
+
+<h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<p>You can install meneco by running::</p>
+
+<pre><code>$ pip install meneco
+</code></pre>
+
+<h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>Typical usage is::</p>
+
+<pre><code>$ meneco.py draftnetwork.sbml repairnetwork.sbml seeds.sbml targets.sbml
+</code></pre>
+
+<h3>
+<a name="samples" class="anchor" href="#samples"><span class="octicon octicon-link"></span></a>Samples</h3>
+
+<p>Sample files for the reconstruction of ectocarpus are available here:
+      <a href="http://bioasp.github.io/downloads/samples/ectodata/ectocyc.sbml">ectocyc.sbml</a> <a href="http://bioasp.github.io/downloads/samples/ectodata/metacyc_16-5.sbml">metacyc_16-5.sbml</a> <a href="http://bioasp.github.io/downloads/samples/ectodata/seeds.sbml">seeds.sbml</a> <a href="http://www.cs.uni-potsdam.de/%7Esthiele/bioasp/downloads/samples/ectodata/targets.sbml">targets.sbml</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bioasp">bioasp</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
